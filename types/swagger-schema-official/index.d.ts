@@ -45,7 +45,7 @@ export type ParameterType = 'string' | 'number' | 'integer' | 'boolean' | 'array
 
 export type BaseParameter = {
   name: string;
-  in: 'body' | 'query' | 'path' | 'header' | 'formData' | 'body';
+  in: 'body' | 'query' | 'path' | 'header' | 'formData';
   required?: boolean | undefined;
   description?: string | undefined;
 };
